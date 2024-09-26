@@ -6,8 +6,7 @@ echo $suma;*/
 
 
 /* Postgres Database connection
-Developer : Jessica
-*/
+Developer : Jessica Ortega*/
 
 $host      = "localhost"; //127.0.0.1
 $username  = "postgres";
