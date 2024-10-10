@@ -1,11 +1,33 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
- </head>
- <body>
-   <a href="http://127.0.0.1/beta/" target="_blank">Go to home</a>
- </body>
- </html>
+    <title>Login</title>
+</head>
+<body>
+    
+    <center><h3>Login form</h3></center>
+    <center><img src = "images/users.png" width="50"></center>
+    <form name="login_form" action="backend/signin.php" method="post">
+        <table border="0" align ="center">
+            <tr><td><label>Email: </label></td></tr>
+            <tr><td><input type ="email" name= "email" placeholder="Hello@mail.com" required></td></tr>
+            <tr><td><Password>Password: </Password></td></tr>
+            <tr><td><input type ="password" name= "passwd" placeholder="***************" required></td></tr>
+            <tr><td><button>Register</button></td></tr>
+
+        </table>
+    </form>
+    <center>
+      <br>
+      <a href="http://127.0.0.1/beta/api/src/forgot_pass_form.html" target="_blank">
+        Forgot Password?
+      </a>
+        &nbsp; &nbsp;
+        <a href="http://127.0.0.1/beta/api/src/register_form.html" target="_blank">
+          Sing Up</a>
+      </center>
+
+</body>
+</html>
